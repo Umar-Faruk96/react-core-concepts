@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 // ^ Random User Component
 const RandomUser = () => {
   const [users, setUser] = useState({});
-  
+
   useEffect(() => {
     fetch("https://randomuser.me/api/?results=10")
       .then((res) => res.json())
@@ -12,7 +12,10 @@ const RandomUser = () => {
 
   return (
     <div>
-      <h3>Random User List: {users.results.length}</h3>
+      <h2 style={{ textDecoration: "underline double green" }}>
+        Random User Component
+      </h2>
+      <h5>Random User List: {users.results.length}</h5>
       <ul style={{ listStyle: "none" }}>
         {users.results.map((user) => (
           <li>

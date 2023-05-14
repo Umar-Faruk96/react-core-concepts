@@ -11,7 +11,10 @@ const Posts = () => {
 
   return (
     <div>
-      <h3>Post Count: {post.length}</h3>
+      <h2 style={{ textDecoration: "underline double green" }}>
+        Posts Component
+      </h2>
+      <h5>Post Count: {post.length}</h5>
       <ul style={{ listStyle: "none" }}>
         {post.map((singlePost) => (
           <li>{singlePost.title}</li>

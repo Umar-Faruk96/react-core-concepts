@@ -51,7 +51,9 @@ const fruits = [
 const Fruits = () => {
   return (
     <div>
-      <h3>Fruits Component</h3>
+      <h2 style={{ textDecoration: "underline double green" }}>
+        Fruits Component
+      </h2>
       {fruits.map((fruitObj) => {
         return fruitObj.origin.map((origin) => {
           return <Fruit fruitOrigin={origin} fruitName={fruitObj}></Fruit>;

@@ -4,6 +4,9 @@ import React from "react";
 const Courses = () => {
   return (
     <div>
+      <h2 style={{ textDecoration: "underline double green" }}>
+        Course Component
+      </h2>
       <Course subject="React Learning" topic="Component Creation"></Course>
       <Course
         subject="React Learning"
@@ -30,8 +33,8 @@ const Course = (props) => {
   console.log(props);
   return (
     <div style={styling}>
-      <h2>Subject: {props.subject}</h2>
-      <h3>Topic: {props.topic}</h3>
+      <h3>Subject: {props.subject}</h3>
+      <h5>Topic: {props.topic}</h5>
     </div>
   );
 };

@@ -16,7 +16,10 @@ const languages = [
 const Languages = () => {
   return (
     <div>
-      <h3>List of learning languages:</h3>
+      <h2 style={{ textDecoration: "underline double green" }}>
+        Languages Component
+      </h2>
+      <h5>List of learning languages:</h5>
       <ul style={{ listStyle: "none" }}>
         {languages.map((language) => (
           <li>{language}</li>

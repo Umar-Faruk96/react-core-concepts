@@ -13,7 +13,10 @@ const Users = () => {
 
   return (
     <div>
-      <h3>Dynamic Users: {users.length}</h3>
+      <h2 style={{ textDecoration: "underline double green" }}>
+        Users Component
+      </h2>
+      <h5>Dynamic Users: {users.length}</h5>
       <ul style={{ listStyle: "none" }}>
         {users.map((user) => (
           <li>{user.name}</li>

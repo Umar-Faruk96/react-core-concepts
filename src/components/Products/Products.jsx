@@ -13,7 +13,9 @@ const products = [
 const Products = () => {
   return (
     <div>
-      <h3>Product List</h3>
+      <h2 style={{ textDecoration: "underline double green" }}>
+        Products Component
+      </h2>
       {products.map((productObj) => (
         <Product product={productObj}></Product>
       ))}
