@@ -4,8 +4,8 @@ This repo is created for educational and practices of react 18 purposes. It was 
 
 ## Dependencies Used
 
-1. react: ^18.2.0
-2. react-dom: ^18.2.0
+1. ```react: ^18.2.0```
+2. ```react-dom: ^18.2.0```
 
 ### Created Components 11
 
