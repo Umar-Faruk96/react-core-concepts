@@ -7,7 +7,7 @@ This repo is created for educational and practices of react 18 purposes. It was 
 1. ```react: ^18.2.0```
 2. ```react-dom: ^18.2.0```
 
-### Created Components 11
+### Created Components: *11*
 
 11 components are created to learn various aspect and development of react with the main ```<App />``` component
 
@@ -24,3 +24,9 @@ This repo is created for educational and practices of react 18 purposes. It was 
 9. ```<Products />```
 10. ```<RandomUser />```
 11. ```<Users />```
+
+#### APIs used
+- https://restcountries.com/v3.1/all
+- https://jsonplaceholder.typicode.com/posts
+- https://randomuser.me/api/?results=10
+- https://jsonplaceholder.typicode.com/users
