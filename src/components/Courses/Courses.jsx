@@ -30,7 +30,7 @@ const Course = (props) => {
     margin: "0.4rem",
     width: "50vw",
   };
-  console.log(props);
+  // console.log(props);
   return (
     <div style={styling}>
       <h3>Subject: {props.subject}</h3>
