@@ -7,7 +7,7 @@ import Fruits from "./components/Fruits/Fruits";
 import Languages from "./components/Languages/Languages";
 import Posts from "./components/Posts/Posts";
 import Products from "./components/Products/Products";
-// import RandomUser from "./components/RandomUser/RandomUser";
+import RandomUser from "./components/RandomUser/RandomUser";
 import Users from "./components/Users/Users";
 
 function App() {
