@@ -17,15 +17,15 @@ function App() {
         <Intro />
 
         {/* Used with restcountries API */}
-{/*         <Countries /> */}
+{/*         <Countries /> 
 
-        // <Counter />
+        <Counter />
 
-        // <Courses />
+        <Courses />
 
-        // <Fruits />
+        <Fruits />
 
-        // <Languages />
+        <Languages /> */}
 
         {/* Used with jsonplaceholder API */}
 {/*         <Posts /> */}
