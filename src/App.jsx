@@ -1,6 +1,6 @@
 import "./App.css";
-{/* import Countries from "./components/Countries/Countries";
 import Intro from "./components/Intro/Intro";
+{/* import Countries from "./components/Countries/Countries";
 import Counter from "./components/Counter/Counter";
 import Courses from "./components/Courses/Courses";
 import Fruits from "./components/Fruits/Fruits";
