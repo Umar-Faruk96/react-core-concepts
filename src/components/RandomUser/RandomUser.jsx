@@ -15,14 +15,15 @@ const RandomUser = () => {
       <h2 style={{ textDecoration: "underline double green" }}>
         Random User Component
       </h2>
-      <h5>Random User List: {users ? users.results.length : 0}</h5>
-      <ul style={{ listStyle: "none" }}>
+      <pre> {users} </pre>
+{/*       <h5>Random User List: {users ? users.results.length : 0}</h5> */}
+{/*       <ul style={{ listStyle: "none" }}>
         {users.results.map((user) => (
           <li>
             {user.name.title} {user.name.first} {user.name.last}
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };
