@@ -17,26 +17,26 @@ function App() {
         <Intro />
 
         {/* Used with restcountries API */}
-        <Countries />
+{/*         <Countries /> */}
 
-        <Counter />
+        // <Counter />
 
-        <Courses />
+        // <Courses />
 
-        <Fruits />
+        // <Fruits />
 
-        <Languages />
+        // <Languages />
 
         {/* Used with jsonplaceholder API */}
-        <Posts />
+{/*         <Posts /> */}
 
-        <Products />
+{/*         <Products /> */}
         
         {/* Used with randomuser API */}
-        <RandomUser />
+{/*         <RandomUser /> */}
 
         {/* Used with jsonplaceholder API */}
-        <Users />
+{/*         <Users /> */}
       </header>
     </div>
   );
