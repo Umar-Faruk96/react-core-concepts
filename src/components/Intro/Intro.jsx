@@ -25,10 +25,10 @@ const Intro = () => {
   return (
     <div>
       <h2>
-        Core Understanding of <b style={style}>{teacherData.teaches[4]}</b>
+        <b style={style}>{teacherData.teaches[4]} 18</b> Learning
       </h2>
       <h4>
-        Instructor Name is <b style={style}>{teacherData.name}</b>
+        With <b style={style}>{teacherData.name}</b>
       </h4>
     </div>
   );
