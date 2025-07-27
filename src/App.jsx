@@ -14,35 +14,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Intro */}
-        <Intro></Intro>
+        <Intro />
 
-        {/* Country component with restcountries API */}
-        <Countries></Countries>
+        {/* Used with restcountries API */}
+        <Countries />
 
-        {/* Counter component */}
-        <Counter></Counter>
+        <Counter />
 
-        {/* Courses component */}
-        <Courses></Courses>
+        <Courses />
 
-        {/* Fruits component */}
-        <Fruits></Fruits>
+        <Fruits />
 
-        {/* Languages component */}
-        <Languages></Languages>
+        <Languages />
 
-        {/* Posts component */}
-        <Posts></Posts>
+        {/* Used with jsonplaceholder API */}
+        <Posts />
 
-        {/* Product component */}
-        <Products></Products>
+        <Products />
+        
+        {/* Used with randomuser API */}
+        <RandomUser />
 
-        {/* Random User component */}
-        {/* <RandomUser></RandomUser> */}
-
-        {/* Users Component */}
-        <Users></Users>
+        {/* Used with jsonplaceholder API */}
+        <Users />
       </header>
     </div>
   );
