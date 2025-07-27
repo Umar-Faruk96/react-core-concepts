@@ -17,12 +17,13 @@ function App() {
         <nav>
           <Intro />
         </nav>
+      </header>
 
-        <main>
-          {/* Used with restcountries API */}
-          <Countries /> 
+      <main>
+        {/* Used with restcountries API */}
+        <Countries />
 
-          {/* <Counter />
+        {/* <Counter />
 
         <Courses />
 
@@ -31,17 +32,16 @@ function App() {
         <Languages /> */}
 
         {/* Used with jsonplaceholder API */}
-{/*         <Posts /> */}
+        {/*         <Posts /> */}
 
-{/*         <Products /> */}
-        
+        {/*         <Products /> */}
+
         {/* Used with randomuser API */}
-{/*         <RandomUser /> */}
+        {/*         <RandomUser /> */}
 
         {/* Used with jsonplaceholder API */}
-{/*         <Users /> */}
-          </main>
-      </header>
+        {/*         <Users /> */}
+      </main>
     </div>
   );
 }

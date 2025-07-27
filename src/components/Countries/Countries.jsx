@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import CountryData from "../CountryData/CountryData";
 
 // ~ Countries Component
@@ -15,29 +15,34 @@ const Countries = () => {
 
   // ? add country features
   const [countryLength, setCountry] = useState([]);
-  const handleAddCountry = (country) => {
-    console.log(country);
+  const addCountry = (country) => {
+    // console.log(country);
     setCountry([...countryLength, country]);
   };
 
   return (
     <div>
-      <h2 style={{ textDecoration: "underline double green" }}>
-        Country Component
-      </h2>
-      <h3>Country Loaded: {countries.length}</h3>
+      <h2>Countries Listing App</h2>
 
-      {/* Country Data Component Build */}
-      <CountryData countryData={countryLength} />
-
-      {/* Country Component Build */}
-      {countries.map((country) => (
-        <Country
-          country={country}
-          key={country.cca3}
-          handler={handleAddCountry}
-        />
-      ))}
+      {countries.length ? (
+        <>
+          <div className="countries-detail">
+            <h3>Total Countries: {countries.length ?? 0}</h3>
+            <CountryData countryData={countryLength} />
+          </div>
+          {countries.map((country) => (
+          <Country
+            country={country}
+            key={country.cca3}
+            handler={addCountry}
+          />
+        ))}
+        </>
+      ) : (
+        <p style={{ color: "#f7ff00", fontSize: "1.2rem", fontWeight: "bold" }}>
+          An error occured while fetching countries data from the API
+        </p>
+      )}
     </div>
   );
 };
@@ -74,7 +79,7 @@ const Country = (props) => {
     props.country;
 
   // ? catch event handler
-  const handleAddCountry = props.handler;
+  const addCountry = props.handler;
 
   return (
     <div style={divStyle}>
@@ -89,7 +94,7 @@ const Country = (props) => {
         <li>Independent : {independent ? "Yes" : "No"}</li>
         <li>Start Of Week : {startOfWeek}</li>
       </ul>
-      <button onClick={() => handleAddCountry(props.country)} style={btnStyle}>
+      <button onClick={() => addCountry(props.country)} style={btnStyle}>
         Add Country
       </button>
       {/* {console.log(props.country)} */}
