@@ -1,7 +1,7 @@
 import "./App.css";
 import Intro from "./components/Intro/Intro";
-/* import Countries from "./components/Countries/Countries";
-import Counter from "./components/Counter/Counter";
+import Countries from "./components/Countries/Countries";
+/* import Counter from "./components/Counter/Counter";
 import Courses from "./components/Courses/Courses";
 import Fruits from "./components/Fruits/Fruits";
 import Languages from "./components/Languages/Languages";
@@ -14,12 +14,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Intro />
+        <nav>
+          <Intro />
+        </nav>
 
-        {/* Used with restcountries API */}
-{/*         <Countries /> 
+        <main>
+          {/* Used with restcountries API */}
+          <Countries /> 
 
-        <Counter />
+          {/* <Counter />
 
         <Courses />
 
@@ -37,6 +40,7 @@ function App() {
 
         {/* Used with jsonplaceholder API */}
 {/*         <Users /> */}
+          </main>
       </header>
     </div>
   );
