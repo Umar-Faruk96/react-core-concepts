@@ -16,7 +16,7 @@ const teacherData = {
 
 // ~ Intro Style
 const style = {
-  fontFamily: "monospace",
+  fontFamily: "Metal Mania", "system-ui",
   color: "#d36d63",
 };
 
