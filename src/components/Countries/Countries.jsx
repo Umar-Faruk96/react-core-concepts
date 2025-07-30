@@ -21,7 +21,7 @@ const Countries = () => {
   };
 
   return (
-    <div>
+    <div style={{ marginBlock: "1rem" }}>
       <h2>Countries Listing App</h2>
 
       {countries.length ? (
@@ -31,12 +31,12 @@ const Countries = () => {
             <CountryData countryData={countryLength} />
           </div>
           {countries.map((country) => (
-          <Country
-            country={country}
-            key={country.cca3}
-            handler={addCountry}
-          />
-        ))}
+            <Country
+              country={country}
+              key={country.cca3}
+              handler={addCountry}
+            />
+          ))}
         </>
       ) : (
         <p style={{ color: "#f7ff00", fontSize: "1.2rem", fontWeight: "bold" }}>
