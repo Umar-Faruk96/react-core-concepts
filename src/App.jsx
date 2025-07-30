@@ -1,9 +1,9 @@
 import "./App.css";
 import Intro from "./components/Intro/Intro";
+import Counter from "./components/Counter/Counter";
 import Countries from "./components/Countries/Countries";
-/* import Counter from "./components/Counter/Counter";
 import Courses from "./components/Courses/Courses";
-import Fruits from "./components/Fruits/Fruits";
+/* import Fruits from "./components/Fruits/Fruits";
 import Languages from "./components/Languages/Languages";
 import Posts from "./components/Posts/Posts";
 import Products from "./components/Products/Products";
@@ -20,14 +20,14 @@ function App() {
       </header>
 
       <main>
+        <Counter />
+
         {/* Used with restcountries API */}
         <Countries />
 
-        {/* <Counter />
-
         <Courses />
 
-        <Fruits />
+        {/* <Fruits />
 
         <Languages /> */}
 
